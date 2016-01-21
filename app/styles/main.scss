@@ -1,4 +1,5 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+$fa-font-path: "../fonts";
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 @import "font-awesome/scss/font-awesome.scss";
@@ -89,7 +90,7 @@ body {
           transition:all cubic-bezier(0.2,1,0.3,1) 1.2s;
 
 }
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav > li > a:visited, .navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a.active{color:#FFF;}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav > li > a:visited, .navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a.active{color:#FFF; text-transform:uppercase}
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a.active{background-color:#C00}
 
 .encart {background-color:#C00; padding:1em; color:#FFF; text-align:justify;margin-top:2em;}
@@ -136,6 +137,7 @@ div[random-background]{
   }
 
 }
+.container > .navbar-header{width:auto;}
 
 .fade-animate {
   -webkit-transition:opacity cubic-bezier(0.2,1,0.3,1) 1.2s;
@@ -300,6 +302,7 @@ html {
     padding-top:5em;
     padding-bottom:40px;
   }
+
 
   
 
