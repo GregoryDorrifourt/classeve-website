@@ -1,0 +1,327 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "font-awesome/scss/font-awesome.scss";
+// endbower
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+  background-color:#AAA;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+
+/* Custom page header */
+.header {
+  margin-bottom: 10px;
+  z-index:999;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+
+  .navbar {
+    border: none;
+    background: rgba(0,0,0,0.7);
+  }
+}
+
+/* Custom page footer */
+.footer {
+  line-height:40px;
+  color: #777;
+  background-color: rgba(0,0,0,0.8);
+  margin-top: 1em;
+
+  p{
+    margin:0;
+  }
+}
+.numeros{white-space:nowrap}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+.navbar-brand {
+    padding-top: 0.4em;
+
+    img{
+      height: 35px;
+      width: auto;
+    }
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+
+  p + h4 {
+    margin-top: 28px;
+  }
+}
+.navbar{border-radius:0;}
+.navbar-default .navbar-nav > li > a{
+    -webkit-transition:all cubic-bezier(0.2,1,0.3,1) 1.2s;
+     -moz-transition:all cubic-bezier(0.2,1,0.3,1) 1.2s;
+       -o-transition:all cubic-bezier(0.2,1,0.3,1) 1.2s;
+          transition:all cubic-bezier(0.2,1,0.3,1) 1.2s;
+
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav > li > a:visited, .navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a.active{color:#FFF;}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a.active{background-color:#C00}
+
+.encart {background-color:#C00; padding:1em; color:#FFF; text-align:justify;margin-top:2em;}
+
+h1{color:white;text-shadow: 1px 1px 11px rgba(0, 0, 0, 0.6);}
+
+a.red-btn{color:#FFF; display:inline-block; padding:0.5em 0.8em; background:#C00; margin:1em 0; cursor:pointer;
+    -webkit-transition:all cubic-bezier(0.2,1,0.3,1) 1.2s;
+     -moz-transition:all cubic-bezier(0.2,1,0.3,1) 1.2s;
+       -o-transition:all cubic-bezier(0.2,1,0.3,1) 1.2s;
+          transition:all cubic-bezier(0.2,1,0.3,1) 1.2s;
+}
+a.red-btn:hover{background:#900; text-decoration:none }
+
+strong{font-weight:bold;}
+.center{text-align:center!important; width:100%; display:block;}
+
+.big{font-size:1.2em}
+.big-big{font-size:1.2em}
+
+.smaller{font-size:smaller}
+
+div[bg-slider]{
+  width:100%; height:100%; position:fixed; top:0; left:0;background-color:#000;
+  
+  .slide{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+  }
+
+}
+div[random-background]{
+  width:100%; height:100%; position:fixed; top:0; left:0;background-color:#000;
+  
+  .slide{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+  }
+
+}
+
+.fade-animate {
+  -webkit-transition:opacity cubic-bezier(0.2,1,0.3,1) 1.2s;
+     -moz-transition:opacity cubic-bezier(0.2,1,0.3,1) 1.2s;
+       -o-transition:opacity cubic-bezier(0.2,1,0.3,1) 1.2s;
+          transition:opacity cubic-bezier(0.2,1,0.3,1) 1.2s;
+}
+
+.fade-animate.ng-hide {opacity:0;}
+
+h1{font-size:2em; margin: 0;}
+
+h1, h2, h3{font-family: 'Raleway', sans-serif;}
+
+div.site-container{
+  position:relative;
+}
+
+.content{
+margin-top:1em;
+    h2{font-size:1.3em;font-weight:400;background-color:#C00; padding:0.5em; color:#FFF; margin:0; margin-left:-15px; display:inline-block; position:relative;
+         
+
+      span{ background:#900;  white-space:nowrap; padding:0.5em;    display: block;
+    margin-top: 0.5em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    margin-bottom: -0.5em;}
+    }
+    h2.blue{
+      background-color:#39F;
+    }
+    .inner-text{background-color:#FFF;padding:2em; margin-top:-1em;}
+
+    .colonnes{
+
+       -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    }
+    
+    ul, ol {
+      margin-top: 0;
+      margin-bottom: 0;
+      -webkit-padding-start: 10px;
+    }
+
+    ul.ul-with-padding{
+      margin-top: 0;
+      margin-bottom: 10px;
+      -webkit-padding-start: 40px;
+    }
+    h3{color:#FFF; background-color:#39F; font-size:1.2em;display:inline-block; padding:0.5em;margin:0;margin-left:-0.5em;}
+    p{text-align:justify;}
+  }
+  a.facebook{color:#CCC}
+  a.facebook:hover{color:#45619D; text-decoration:none}
+
+html {
+  position: relative;
+  min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 40px;
+    background-color: rgba(0,0,0,0.8);
+  }
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  div[random-background]{display:none}
+
+  .header{
+    position:fixed;
+    top:0;
+    width:100%;
+
+    
+  }
+  
+  h1{color:white;text-shadow: 1px 1px 11px rgba(0, 0, 0, 0.6);margin-top: 20px;
+    margin-bottom: 10px; }
+
+  .container {
+    max-width: 1000px;
+  }
+  .encart {
+    text-align:center;
+         -moz-box-shadow: 10px 10px 0 0 rgba(0,0,0,0.1);
+      -webkit-box-shadow: 10px 10px 0 0 rgba(0,0,0,0.1);
+           -o-box-shadow: 10px 10px 0 0 rgba(0,0,0,0.1);
+              box-shadow: 10px 10px 0 0 rgba(0,0,0,0.1);
+  }
+  .encart.justify{
+    text-align:justify;
+  }
+  .big-big{font-size:1.4em}
+  .content{
+    margin-top:2em;
+
+    h2{font-size:1.3em;font-weight:400;background-color:#C00; padding:0.5em; color:#FFF; margin:0; margin-left:-1em; display:inline-block; position:relative;
+         -moz-box-shadow: 10px 10px 0 0 rgba(0,0,0,0.1);
+      -webkit-box-shadow: 10px 10px 0 0 rgba(0,0,0,0.1);
+           -o-box-shadow: 10px 10px 0 0 rgba(0,0,0,0.1);
+              box-shadow: 10px 10px 0 0 rgba(0,0,0,0.1);
+
+      span{position:absolute;  background:#900; left:100%; white-space:nowrap;padding:0.5em;top:0;margin:0;         
+         -moz-box-shadow: 10px 10px 0 0 rgba(0,0,0,0.1);
+      -webkit-box-shadow: 10px 10px 0 0 rgba(0,0,0,0.1);
+           -o-box-shadow: 10px 10px 0 0 rgba(0,0,0,0.1);
+              box-shadow: 10px 10px 0 0 rgba(0,0,0,0.1);
+      }
+    }
+    h2.blue{
+      background-color:#39F;
+    }
+    .inner-text{background-color:#FFF;padding:2em; margin-top:-1em;
+         -moz-box-shadow: 10px 10px 0 0 rgba(0,0,0,0.1);
+      -webkit-box-shadow: 10px 10px 0 0 rgba(0,0,0,0.1);
+           -o-box-shadow: 10px 10px 0 0 rgba(0,0,0,0.1);
+              box-shadow: 10px 10px 0 0 rgba(0,0,0,0.1);
+    }
+    .colonnes{
+
+       -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    }
+    
+    ul, ol {
+      margin-top: 0;
+      margin-bottom: 0;
+      -webkit-padding-start: 10px;
+    }
+
+    ul.ul-with-padding{
+      margin-top: 0;
+      margin-bottom: 10px;
+      -webkit-padding-start: 40px;
+    }
+    h3{color:#FFF; background-color:#39F; font-size:1.2em;display:inline-block; padding:0.5em;margin:0;margin-left:-0.5em;}
+    p{text-align:justify;}
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  div.site-container{
+    padding-top:5em;
+    padding-bottom:40px;
+  }
+
+  
+
+}
+
+@media(max-width:1000px)  {
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-collapse {
+        overflow-x: visible !important;
+    }
+
+    .navbar-collapse.in {
+      overflow-y: auto !important;
+    }
+
+    .collapse.in {
+      display: block !important;
+    }
+    .navbar-toggle { display: block !important; } .navbar-header { width: 100%;  }
+
+}
