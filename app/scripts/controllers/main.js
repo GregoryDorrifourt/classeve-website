@@ -75,8 +75,14 @@ angular.module('classeveApp')
   	
   }])
   .controller('MusiqueCtrl', ['$scope', '$rootScope', '$timeout', function ($scope, $rootScope, $timeout) {
-  	$rootScope.IMG_SET="standard";
+    $rootScope.IMG_SET="standard";
     $rootScope.activeRub = "musique";
+    $timeout(function(){$rootScope.$apply();});
+    
+  }])
+  .controller('GalerieCtrl', ['$scope', '$rootScope', '$timeout', function ($scope, $rootScope, $timeout) {
+  	$rootScope.IMG_SET="standard";
+    $rootScope.activeRub = "galerie";
   	$timeout(function(){$rootScope.$apply();});
   	
   }])

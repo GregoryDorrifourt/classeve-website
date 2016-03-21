@@ -36,6 +36,10 @@ angular
         templateUrl: 'views/musique.html',
         controller: 'MusiqueCtrl'
       })
+      .when('/galerie', {
+        templateUrl: 'views/galerie.html',
+        controller: 'GalerieCtrl'
+      })
       .when('/tarifs', {
         templateUrl: 'views/tarifs.html',
         controller: 'TarifsCtrl'
